@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="Moodifier" />
+        <option name="packageNamePattern" value="" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a713d7b7-f03c-4ee9-82dc-0f03504623b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Moodifier.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_common_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cardview_cardview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_collection_collection_1_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_1_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_1_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_exifinterface_exifinterface_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_recyclerview_recyclerview_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager2_viewpager2_1_0_0_rc01_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_0_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_jaiselrahman_FilePicker_1_3_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_maayyaannkk_ImagePicker_1_0_4_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_16_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_auth_base_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_1_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_clearcut_16_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_clearcut_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_flags_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_flags_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_phenotype_16_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_phenotype_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_17_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_19_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_common_17_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_common_19_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_image_label_17_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_image_label_18_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_1_0_beta02_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_auto_value_auto_value_annotations_1_6_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_7_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_19_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_19_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_17_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_ml_common_16_1_6_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_ml_common_22_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_ml_vision_18_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_ml_vision_24_0_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_ml_vision_face_model_17_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_ml_vision_face_model_19_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_microsoft_projectoxford_emotion_1_0_355_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_microsoft_projectoxford_face_1_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_5_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__commons_io_commons_io_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_directory_studio_org_apache_commons_io_2_4_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Moodifier-master.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/moodassesment/universityofsargodha/mooddetection/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/ChangeMoodActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/ImageHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/MainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/Moodifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/NewsFeed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/NewsFeedAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/OnLoadMoreListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/RecognizeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/SelectImageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/SplashActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/WebViewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fade_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/fade_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/splash_logo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/angry.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/button_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/contempt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/disgust.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/fear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/happy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_error_outline_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_play_circle_outline_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ne.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/sad.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/surprise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_change_mood.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_recognize.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_select_image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_web_view.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/cardview_newsfeed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_loading_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_recognize.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-04-35-39-622.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-04-36-05-249.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-04-39-09-773.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-04-40-18-726.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-04-41-04-117.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-04-41-08-125.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-04-59-41-949.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-05-00-55-939.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-05-05-01-240.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-05-07-37-567.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-05-10-13-254.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-05-31-59-565.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-05-34-24-982.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-05-36-20-910.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-05-42-20-238.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-05-45-24-445.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-05-46-51-452.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-05-54-32-911.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-05-58-30-121.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-06-04-56-108.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-06-06-24-102.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-06-09-01-486.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-06-10-08-604.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-18-11-20-922.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-18-11-36-061.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-18-43-27-835.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-19-47-46-122.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-19-51-37-364.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-19-56-24-070.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-19-57-27-484.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-20-00-20-598.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-20-05-15-825.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-20-09-47-558.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-20-10-46-289.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-21-38-12-500.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-21-38-16-776.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-21-42-38-247.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-02-21-45-29-680.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-01-41-13-440.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-01-41-28-064.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-01-55-51-366.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-01-57-01-438.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-01-59-10-505.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-02-02-59-778.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-02-03-23-536.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-02-10-22-812.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-02-13-21-062.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-02-23-35-939.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-02-27-29-864.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-02-28-25-081.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-02-32-39-632.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-02-34-04-223.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-02-47-22-816.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-02-49-48-252.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-02-52-36-778.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-03-44-02-247.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-03-45-07-913.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-03-46-06-230.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-03-46-57-835.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-03-52-48-683.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-03-53-38-573.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-03-55-33-715.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-03-55-35-656.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-04-20-24-234.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-04-23-20-924.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-04-27-21-009.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-04-27-49-813.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-04-29-29-578.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-04-31-51-844.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-04-32-43-461.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-19-45-53-616.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-19-46-07-696.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-19-47-17-716.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-19-50-20-367.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-00-26-320.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-00-35-793.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-00-58-975.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-01-04-293.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-01-20-040.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-09-13-635.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-11-58-748.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-19-47-972.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-29-35-265.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-32-47-982.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-49-10-029.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-50-51-099.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-51-53-695.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-21-53-05-198.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-22-03-45-184.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-22-04-37-762.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-23-56-04-854.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-23-56-10-531.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-03-23-57-22-398.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-04-00-18-17-904.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-07-23-19-40-516.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-07-23-19-54-323.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-07-23-26-32-204.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-07-23-42-59-924.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-07-23-43-31-518.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-08-00-17-53-980.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-08-00-18-04-336.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-08-00-19-27-735.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-08-00-21-53-593.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-08-00-31-31-733.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-02-42-07-851.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-02-42-20-829.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-02-56-22-768.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-03-00-44-632.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-03-33-37-663.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-03-40-21-016.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-03-42-59-304.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-03-43-57-962.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-03-45-25-201.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-04-04-17-507.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-05-21-05-593.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-05-22-35-627.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-05-24-13-564.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-05-32-35-832.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-05-33-10-382.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-05-53-15-153.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-05-55-38-951.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-19-35-50-253.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-19-36-08-371.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-19-55-03-009.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-19-55-18-407.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-20-01-57-007.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-20-02-25-598.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-20-08-37-582.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-20-08-56-093.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-20-11-18-392.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-20-16-29-681.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-10-20-38-03-498.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-22-18-18-40-013.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-22-18-18-55-575.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-02-54-05-729.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-02-54-25-319.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-02-55-15-546.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-02-56-47-907.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-03-00-51-108.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-06-39-21-165.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-06-39-39-296.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-08-41-963.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-09-04-401.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-11-00-125.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-13-10-729.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-15-34-110.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-16-12-567.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-17-19-049.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-18-33-234.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-19-16-163.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-20-18-800.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-23-15-114.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-23-28-194.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-23-47-694.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-33-13-402.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-10-34-51-181.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-11-09-51-337.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-11-28-11-10-05-441.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-08-20-47-53-792.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-08-20-48-13-089.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-08-20-53-46-632.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-08-21-01-14-437.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-14-23-31-18-780.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-14-23-31-34-382.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-15-14-16-45-753.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-15-14-17-33-716.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-18-09-58-01-697.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-18-09-58-29-718.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-18-10-00-07-094.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-18-10-00-47-748.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2017-12-18-12-36-48-087.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/android-profile/profile-2019-10-22-00-17-33-493.rawproto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/mockable-android-21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/mockable-android-23.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/generated/mockable-android-25.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/build/classes/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_4_API_24" />
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/RecognizeActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="192" selection-start-line="192" selection-end-line="192" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/ChangeMoodActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>onactivi</find>
+      <find>provid</find>
+      <find>REQUEST_TAKE_PHOTO</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/microsoft/projectoxford/emotionsample/helper/SelectImageActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/microsoft/projectoxford/emotionsample/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/microsoft/projectoxford/emotionsample/Moodifier.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/microsoft/projectoxford/emotionsample/RecognizeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_recognize.xml" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/microsoft/projectoxford/emotionsample/SelectImageActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mood/projectoxford/emotionsample/SelectImageActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mood/assesment/emotionsample/SelectImageActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mood/assesment/mooddetection/SelectImageActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/mood/universityofsargodha/mooddetection/SelectImageActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/SelectImageActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/RecognizeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages AndroidView="false" />
+      <showMembers AndroidView="false" />
+      <hideEmptyPackages AndroidView="false" />
+      <abbreviatePackageNames AndroidView="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Moodifier-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Moodifier-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Moodifier-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Moodifier-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Moodifier-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="Moodifier-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="Moodifier-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Moodifier-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="moodassesment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Moodifier-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="moodassesment" type="462c0819:PsiDirectoryNode" />
+              <item name="universityofsargodha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Moodifier-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="moodassesment" type="462c0819:PsiDirectoryNode" />
+              <item name="universityofsargodha" type="462c0819:PsiDirectoryNode" />
+              <item name="mooddetection" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Moodifier-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="Moodifier-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="Moodifier-master" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="huawei-ane_lx2-WCY4C18530003947" />
+    <property name="DEBUGGABLE_PROCESS" value="com.microsoft.projectoxford.emotionsample" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
+    <property name="project.structure.last.edited" value="Dependencies" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.microsoft.projectoxford.emotionsample" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hassa\Downloads\Moodifier-master\Moodifier-master\app" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a713d7b7-f03c-4ee9-82dc-0f03504623b0" name="Default Changelist" comment="" />
+      <created>1576687712888</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576687712888</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27315435" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Find" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.44630873" weight="0.3286119" />
+      <window_info anchor="bottom" id="Logcat" order="1" weight="0.6586402" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.55369127" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.47315437" weight="0.3286119" />
+      <window_info anchor="bottom" id="Android Profiler" order="8" />
+      <window_info anchor="right" id="Preview" weight="0.3295302" />
+      <window_info anchor="right" id="Assistant" weight="0.3295302" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jaiselrahman/FilePicker/1.3.2/56adbb911aae43b126c917d37d5a4f3d38ffd1c7/FilePicker-1.3.2-sources.jar!/com/jaiselrahman/filepicker/activity/FilePickerActivity.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jaiselrahman/FilePicker/1.3.2/56adbb911aae43b126c917d37d5a4f3d38ffd1c7/FilePicker-1.3.2-sources.jar!/com/jaiselrahman/filepicker/activity/FilePickerActivity.java</url>
+          <line>228</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>final_result</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/proguard-rules.pro">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradle.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/file_paths.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_select_image.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="33" column="29" selection-start-line="33" selection-start-column="29" selection-end-line="33" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/moodassesment/universityofsargodha/mooddetection/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f3a8d372febefa63bd1ddf7238325f9f/firebase-ml-vision-24.0.1/jars/classes.jar!/com/google/firebase/ml/vision/face/FirebaseVisionFaceDetector.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="51" column="11" lean-forward="true" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/google-services.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/edc036483ef40607e8355e7cf0a3668d/play-services-tasks-17.0.0/jars/classes.jar!/com/google/android/gms/tasks/Task.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="43" column="12" lean-forward="true" selection-start-line="43" selection-start-column="12" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-569">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/Moodifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/NewsFeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/NewsFeedAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/WebViewActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/Video.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/SplashActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/ImageHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="138" column="26" lean-forward="true" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jaiselrahman/FilePicker/1.3.2/56adbb911aae43b126c917d37d5a4f3d38ffd1c7/FilePicker-1.3.2-sources.jar!/com/jaiselrahman/filepicker/model/MediaFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="26" column="43" lean-forward="true" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/os/Looper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#720#721#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="47" column="68" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.jaiselrahman/FilePicker/1.3.2/56adbb911aae43b126c917d37d5a4f3d38ffd1c7/FilePicker-1.3.2-sources.jar!/com/jaiselrahman/filepicker/activity/FilePickerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="141" selection-start-line="141" selection-end-line="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="5" selection-end-line="59" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/SelectImageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="42" column="18" lean-forward="true" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_recognize.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="24" selection-end-line="37" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/ChangeMoodActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/moodassesment/universityofsargodha/mooddetection/RecognizeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

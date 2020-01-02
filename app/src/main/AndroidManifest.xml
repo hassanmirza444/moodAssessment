@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.moodassesment.universityofsargodha.mooddetection">
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <meta-data android:name="com.google.firebase.ml.vision.DEPENDENCIES" android:value="face" />
+    <application
+        android:name="com.moodassesment.universityofsargodha.mooddetection.Moodifier"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.moodassesment.universityofsargodha.mooddetection.MainActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.moodassesment.universityofsargodha.mooddetection.RecognizeActivity"
+            android:label="@string/title_activity_analyze"
+            android:parentActivityName="com.moodassesment.universityofsargodha.mooddetection.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.moodassesment.universityofsargodha.mooddetection.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.moodassesment.universityofsargodha.mooddetection.SelectImageActivity"
+            android:label="@string/select_an_image"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.moodassesment.universityofsargodha.mooddetection.ChangeMoodActivity"
+            android:label="Changing your mood" />
+
+        <activity android:name="com.moodassesment.universityofsargodha.mooddetection.WebViewActivity" />
+
+        <activity android:name="com.moodassesment.universityofsargodha.mooddetection.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+     <!--  <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.microsoft.projectoxford.emotionsample.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths">
+            </meta-data>
+        </provider>-->
+
+    </application>
+
+</manifest>

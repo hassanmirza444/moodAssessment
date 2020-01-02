@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\Android\AndroidStudio\gradle\m2repository\commons-io\commons-io\2.4\commons-io-2.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="D:\Projects\Moodifier\app\build\intermediates\pre-dexed\debug\commons-io-2.4_acfc07859ce56c48a6a8308f796fd5432761a118.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Projects\Moodifier\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="D:\Projects\Moodifier\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_47016746de3ed78d8a2bf729d8b8005d647ed236\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gourav\.android\build-cache\4a6f842efc115bdffddec3a75638509b9705f2fe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e14806eb68bf5098f8a6b6f09e414143b7532280">
+        <dex dex="D:\Projects\Moodifier\app\build\intermediates\pre-dexed\debug\classes_0f81f2598231b4529e32a819a2914727a5126d63.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gourav\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Projects\Moodifier\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_59de28bcf6de995540845bad1a1dd05fd5359237.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\Projects\Moodifier\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cc5c217e11032ca77ee01eaeee510f0ea52c1fc">
+        <dex dex="D:\Projects\Moodifier\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_f1bc3bd042d4d431bbce4a63fd461381578a568c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gourav\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="D:\Projects\Moodifier\app\build\intermediates\pre-dexed\debug\gson-2.7_3def0e3f529b3a4bf233a12b6254399f38c9080a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Gourav\.android\build-cache\29efd85b7e5aefc50d70e06084cc52ae938e3183\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9885b9cbfc39129a13674d39d0cae321fc0dc97">
+        <dex dex="D:\Projects\Moodifier\app\build\intermediates\pre-dexed\debug\classes_62c618444cc2be07151a5bb8bcef85c006f70419.jar" />
+    </item>
+
+</items>

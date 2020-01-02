@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "105353468309",
+    "firebase_url": "https://getaudios.firebaseio.com",
+    "project_id": "getaudios",
+    "storage_bucket": "getaudios.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105353468309:android:cbacbbd022aa146722fe9c",
+        "android_client_info": {
+          "package_name": "com.microsoft.projectoxford.emotionsample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNN_byJfIE_oBMeJjDW_ywW4UaTtG22uw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105353468309:android:c77185ce545a9ce6",
+        "android_client_info": {
+          "package_name": "com.zulusoft.audiosfromfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNN_byJfIE_oBMeJjDW_ywW4UaTtG22uw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105353468309:android:2856c301fb1d5920",
+        "android_client_info": {
+          "package_name": "me.tariq.alarm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNN_byJfIE_oBMeJjDW_ywW4UaTtG22uw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
